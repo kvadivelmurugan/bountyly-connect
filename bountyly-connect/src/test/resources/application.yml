@@ -1,0 +1,9 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /bountyly-connect
+bountyly-connect:
+  trace: true
+spring:
+  profiles:
+    active: h2

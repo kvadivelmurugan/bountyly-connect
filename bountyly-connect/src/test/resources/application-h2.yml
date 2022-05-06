@@ -1,0 +1,15 @@
+spring:
+  profiles: h2
+  application:
+    name: boutyly-connect
+
+  devtools:
+    restart:
+      enabled: true
+  sql:
+    init.mode: always
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password

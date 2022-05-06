@@ -1,0 +1,12 @@
+spring:
+  profiles: dev
+  application:
+    name: boutyly-connect
+
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bountyly-connect-db
+    username: postgres
+    password: postgres
